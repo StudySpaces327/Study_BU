@@ -19,7 +19,7 @@ To run simply download and open in Android Studio or download the app on the Pla
 <a href="https://play.google.com/store/apps/details?id=com.something.bustudyspots&hl=en">BU_Study</a>
 </br>
 
-<b>How it works</b>
+<b>How the app works</b>
 <br>
 1. Click the "Click to begin button"
 2. Filter the places you wish to study by simply clicking on the boxes that apply to your taste.
