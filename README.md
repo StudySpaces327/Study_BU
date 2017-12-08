@@ -4,8 +4,6 @@
 Study_BU is an application to help Boston University students find their place to study at BU. This app was created for our EC327 "Intro to Software Engineering" group project which taught C/C++ by Professor Douglas Densmore. Our team name is "Hope we get higher than a C++." 
 </br>
 
-
-
 <b>Intallation</b>
 <br>
 To run simply download and open in Android Studio or download the app on the Play Store.
@@ -24,6 +22,11 @@ To run simply download and open in Android Studio or download the app on the Pla
    enabled)
 4. You can select the two buttons on the bottom right corner of the map after you click on the markers to get the direction of    your intended destination.
 5. Otherwise, you can simply click on the markers for more information which consists of either an overview of the studying      spot, hours of operation, and overall setting of the study spot.
+</br>
+
+<b><Technical Aspects></b>
+<br>
+Our app uses Google Maps API on Android Studio to create markers, and user's current location. We also used Vectr, a graphic design software, to create the background of the user interface. 
 </br>
 
 
