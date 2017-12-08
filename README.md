@@ -24,7 +24,7 @@ To run simply download and open in Android Studio or download the app on the Pla
 5. Otherwise, you can simply click on the markers for more information which consists of either an overview of the studying      spot, hours of operation, and overall setting of the study spot.
 </br>
 
-<b><Technical Aspects></b>
+<b>Technical Aspects</b>
 <br>
 Our app uses Google Maps API on Android Studio to create markers, and user's current location. We also used Vectr, a graphic design software, to create the background of the user interface. 
 </br>
