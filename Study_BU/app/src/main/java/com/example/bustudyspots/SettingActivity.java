@@ -21,7 +21,6 @@ public class SettingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.setting_activity);
 
-        // Find the save changes button and set it to do some action when clicked
         save_changes_button = findViewById(R.id.savechangesbutton);
         save_changes_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,20 +29,16 @@ public class SettingActivity extends AppCompatActivity {
             }
         });
 
-        //Set up the check boxes
         cafe = findViewById(R.id.cafeCheckBox);
         libraries = findViewById(R.id.libraryCheckBox);
         BUonly = findViewById(R.id.BUonlyCheckBox);
         allPlaces = findViewById(R.id.allPlacesCheckBox);
 
-        //implement backspace function
+
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
-    /* This button will carry out this function once clicked
-        The function uses the check boxes to filter out the options that users want for study places
-        */
     public void openMapActivity() {
 
         Intent openMap = new Intent(this, MapActivity.class);

@@ -11,14 +11,13 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button open_setting; //declare a button on the homescreen
+    private Button open_setting;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Find the button and then set it to open to a new activity (new page)
         open_setting = findViewById(R.id.opensetting);
         open_setting.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,9 +27,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    
-    //The new activity that the button will carry out if pressed
-    //Takes user to the settings page 
+
     public void openSettingActivity() {
         Intent intent1 = new Intent(this, SettingActivity.class);
         startActivity(intent1);
