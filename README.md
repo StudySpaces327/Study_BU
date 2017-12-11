@@ -19,6 +19,11 @@ To run simply download and open in Android Studio or download the app on the Pla
 <a href="https://play.google.com/store/apps/details?id=com.something.bustudyspots&hl=en">BU_Study</a>
 </br>
 
+<b>YouTube</b>
+<br>
+<a href="https://www.youtube.com/watch?v=AxGSojk0k3o&feature=youtu.be">EC327 BU_Study Video</a>
+</br>
+
 <b>How the app works</b>
 <br>
 1. Click the "Click to begin button"
